@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/login/login",
+    
+    "pages/register/register",
+
+    "pages/index/index",
+    "pages/send/send",
+    "pages/share/share",
+    "pages/00exem00/00",
+    "pages/foodLIst/foodList",
+    "pages/logs/logs",
+    "pages/Pro/Pro"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF7F27",
+    "navigationBarTitleText": "美食小探",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/image/house.png",
+        "selectedIconPath": "pages/image/house-active.png"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "text": "分类",
+        "iconPath": "pages/image/fei.png",
+        "selectedIconPath": "pages/image/fei-active.png"
+      },
+      {
+        "pagePath": "pages/share/share",
+        "text": "发现",
+        "url": "pages/foodList/foodList",
+        "iconPath": "pages/image/found.png",
+        "selectedIconPath": "pages/image/found-active.png"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "text": "我的",
+        "iconPath": "pages/image/people.png",
+        "selectedIconPath": "pages/image/people-active.png"
+      }
+    ]
+  }
+}

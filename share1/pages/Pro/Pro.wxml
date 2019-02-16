@@ -1,0 +1,16 @@
+<!--pages/Pro/Pro.wxml-->
+<view class='Pro'>
+ <image src=''></image>
+  <view>
+      <text></text>
+  </view>
+  <view>
+    <text></text>
+  </view>
+  <view>
+    <text></text>
+    <text></text>
+    <text></text>
+  </view>
+
+</view>

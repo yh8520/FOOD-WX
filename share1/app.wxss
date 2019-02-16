@@ -1,0 +1,20 @@
+/**app.wxss**/ 
+/* 通用箭头 */
+.arrow{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.arrow::after{
+  content:"";
+  width:15rpx;
+  height:15rpx;
+  border-top:3rpx solid #ddd;
+  border-right:3rpx solid #ddd;
+  transform:rotate(45deg);
+}
+/* 分隔块 */
+.divider{
+  height:20rpx;
+  background:#f0f0f0;
+}

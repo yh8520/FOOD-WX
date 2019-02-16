@@ -1,0 +1,12 @@
+<!--pages/share/share.wxml-->
+<view class='card' wx:for="{{list}}" wx:key="{{index}}" catchtap='handlePro'>
+  <text class='card-title'>{{item.title}}</text>
+  <text class='card-date'>{{item.ctime}}</text>
+  <image class='card-image' src='{{item.img_url}}'></image>
+  <text class='card-desc'>{{item.desc2}}</text>
+  <text class='card-read arrow' >查看详情</text>
+</view>
+
+
+<!-- <view bindtap="openmap">选择地图</view> -->
+

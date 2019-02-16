@@ -1,0 +1,18 @@
+<!--pages/foodLIst/foodList.wxml-->
+<view class='shop' wx:for="{{foodlist}}" wx:key="index">
+  <view>
+    <image src='{{item.pic}}' class='food-img'></image>
+  </view>
+  <view class='food-info'>
+    <view class='info-title ell'>名称：{{item.name}}</view>
+    <view>店铺推荐：{{item.storeName}}</view>
+    <view>店铺地址：{{item.daddr}}</view>
+    <view>所属菜系：{{item.t}}</view>
+    <view class='info-pro'>介绍：{{item.info}}</view>
+  </view>
+  <view class='food-star'>
+  <text >推荐指数</text>
+    <view class='star-after' >★★★★★</view>
+    <view class='star-before' style='width:{{item.star}}'>★★★★★</view>
+  </view>
+</view>

@@ -1,0 +1,33 @@
+<!--pages/login/login.wxml-->
+<view class='app-login'>
+  <view class="{{num==1?'app-active':''}}" data-num="1" bindtap="menuClick">手机登录</view>
+  <view data-num="2" class="{{num==2?'app-active':''}}" bindtap="menuClick">普通登录</view>
+</view>
+
+<view class='user-log'>
+  <view class="{{num==2?'hide':''}}">
+    <form bindsubmit="checkForm" data-id="1">
+      <input type='text' placeholder='请输入手机号码' name="phone"></input>
+      <view class='heng'>
+        <input type='text' class='heng-input'></input>
+        <button class='heng-btn'>验证码</button>
+      </view>
+      <button formType="submit">登录</button> 
+  </form>
+  <view class='user-reg'>
+    <view><text>忘记密码?</text></view>
+    <view><text catchtap='UserReg'>新用户注册</text></view>
+  </view>
+  </view>
+  <view class="{{num==1?'hide':''}}">
+    <form bindsubmit="checkForm" data-id="2"> 
+      <input type='text' placeholder='请输入用户名' name="uname"></input>
+      <input type='password' placeholder='请输入密码'name="upwd"></input>
+      <button formType="submit">登录</button>
+  </form>
+  <view class='user-reg'>
+    <view><text>忘记密码?</text></view>
+    <view><text catchtap='UserReg'>新用户注册</text></view>
+  </view>
+  </view>
+</view>

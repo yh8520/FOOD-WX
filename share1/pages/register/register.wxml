@@ -1,0 +1,16 @@
+<!--pages/register/register.wxml-->
+<view class='userReg'>
+  <text>用户注册</text>
+</view>
+
+<view class='user-reg'>
+  <view>
+    <form bindsubmit='CheckFrom'>
+      <input type='text' placeholder='请输入用户名' name="uname"></input>
+      <input type='text' placeholder='请输入手机号码' name="phone"></input>
+      <input type='password' placeholder='请输入密码' name="upwd"></input>
+      <input type='password' placeholder='请再次确认密码' name="upwd1"></input>
+      <button formType="submit">注册</button> 
+  </form>
+  </view>
+</view>

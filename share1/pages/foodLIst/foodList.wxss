@@ -1,0 +1,56 @@
+/* pages/foodLIst/foodList.wxss */
+page{
+  background-color:#fff;
+}
+.shop{
+  padding:20rpx;
+  border-bottom:1px solid #ddd;
+  display: flex; 
+}
+/* 当前商品图片 */
+.food-img{
+  width:160rpx;
+  height: 158rpx;
+  margin-right:20rpx
+}
+/* 商品信息 */
+.food-info{
+  color:#666;
+  font-size:14px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5
+}
+.info-title{
+  font-size:16px;
+  color:#333;
+  width:380rpx;
+}
+
+.food-star{
+  position: relative
+}
+.star-after{
+  color:#e2e2e2;
+}
+.food-star text{
+  font-size:16px
+}
+.star-before{
+  color:#f19e38;
+  position: absolute;
+  top:52rpx;
+  overflow: hidden;
+}
+.info-pro{
+  overflow:hidden; 
+  text-overflow:ellipsis;
+  display:-webkit-box; 
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:3; 
+}
+.ell{
+  overflow: hidden; 
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,42 @@
+<!--index.wxml-->
+<view class="container">
+<!-- 轮播图 -->
+  <swiper autoplay='2500' vertical='true' circular="true" >
+    <swiper-item wx:for="{{list}}" wx:key="index">
+      <image src='{{item.img_url}}' wx:if="{{list.length>0}}"></image>
+    </swiper-item>
+  </swiper>
+<!-- 九宫格 -->
+  <view class="weui-grids">
+        <view class="weui-gridNav" wx:for="{{routers}}" wx:key="code">
+            <navigator>
+                <view class='weui-grid-item'>
+                    <view class="weui-grid__icon">
+                        <image src="{{item.img}}"/>
+                    </view>
+                    <text class="weui-grid__label my_small">{{item.titles}}</text>
+                </view>
+            </navigator>
+        </view>
+  </view>
+
+<!-- 分割块 -->
+<view class='divider'></view>
+
+<!--推荐图片 -->
+<view class='food-F1'>
+   <text bindtap='handleTap'>每周精选美食推荐>></text>
+</view>
+
+<!--美食推荐 -->
+<view class='food-recom'>
+  <view wx:for="{{food}}" wx:key="index" class='food-view'>
+    <view>
+      <image src='{{item.pic}}'></image>
+    </view>
+    <text class='my_small'>{{item.title}}</text>
+    <text class='p'>{{item.subName}}</text>
+  </view>
+</view>
+
+</view>

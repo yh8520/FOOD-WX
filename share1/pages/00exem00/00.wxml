@@ -1,0 +1,16 @@
+<!--pages/00exem00/00.wxml-->
+<view>
+  <text>事件绑定方式</text>
+  <view class='container' bindtap='handleTap3'>
+
+    <view bindtap='handleTap1' >绑定tap事件(冒泡)</view>
+
+    <view catchtap='handleTap2'>绑定tap事件(不冒泡)</view>
+  </view>
+
+<view data-id="1212" bindtap='handleTap4'>获取参数</view>
+
+</view>
+<view bindtap="del" data-name="tom">del</view>
+
+<view  catchtap='caozuo'>操作</view>

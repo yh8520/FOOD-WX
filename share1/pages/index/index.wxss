@@ -1,0 +1,61 @@
+.container{
+  padding:0;
+  margin:0
+}
+.container swiper{
+  width: 100%;
+  height: 400rpx;
+}
+.container image{
+  height:100%;
+  width: 100%
+}
+
+.weui-grids{
+    width: 745rpx;
+    display:flex;
+    flex-wrap: wrap;
+}
+.weui-gridNav{
+  width:25%;
+  box-sizing: border-box;
+  flex-direction: column; /*按列方向*/
+  justify-content: center;/*居中*/
+  align-items: center;
+}
+.weui-grid-item{
+  margin: 0 auto;
+  text-align: center;
+}
+.weui-grid__icon image{
+  width: 90rpx;
+  height: 90rpx;
+   border-radius: 50%
+}
+.divider{
+  height:20rpx;
+  background:#f1f1f1;
+}
+
+.food-F1{
+  margin:20rpx 40rpx;
+}
+.food-recom{
+  width: 750rpx;
+}
+.food-recom image{
+  width: 100%;
+  height:400rpx;
+}
+.food-recom .p{
+  display:block;
+  font-size:24rpx;
+  color:#808080;
+}
+.food-recom .food-view{
+  margin:40rpx
+}
+
+.my_small{
+  font-size:32rpx
+}

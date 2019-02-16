@@ -1,0 +1,46 @@
+/* pages/register/register.wxss */
+.userReg{
+  margin-top:25rpx;
+  text-align:center;
+}
+.app-active{
+  color:#0BA1E2;
+  font-size:22px
+}
+.user-reg{
+  width: 90%;
+  margin:5% auto;
+}
+.user-reg input{
+  border:1px solid #333;
+  padding-left:4%;
+  margin:6%;
+  height: 80rpx;
+  border-radius: 6px;
+  font-size:32rpx
+}
+.user-reg button{
+  background-color: #0BA1E2;
+  color: #FFF;
+  width:90%
+}
+.heng{
+  justify-content: space-between;
+  display: flex;
+  width: 90%;
+  margin:15rpx auto;
+  position: relative;
+  margin-bottom:20rpx;
+}
+.heng-input{
+  width:40%;
+  margin:0 !important
+}
+.heng-btn{
+  width:50% !important;
+  height: 42px;
+  position: absolute;
+  top:0rpx;
+  right:0rpx;
+}
+
